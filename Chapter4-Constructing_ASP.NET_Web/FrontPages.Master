@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FrontPages.master.cs" Inherits="Chapter4_Practice.FrontPages" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Front Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <h1>Welcome to SuperSite Inc!</h1>
+
+            <asp:ContentPlaceHolder ID="FrontPageContent" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <p>Copyright 2006</p>
+        </div>
+    </form>
+</body>
+</html>
