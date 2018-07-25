@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace Chapter5
+{
+    public partial class ErrorTest_01 : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            int[] a = new int[10];
+
+            int i;
+
+            for(i = 0; i < 11; i++)
+            {
+                a[i] = i;
+            }
+        }
+    }
+}
